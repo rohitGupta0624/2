@@ -1,0 +1,26 @@
+
+
+ abstract class abc
+{
+abstract void display();
+}
+class xyz extends abc
+{
+void display() {
+    int i;
+    for (i = 0; i < 10; i++) {
+        System.out.println("yeoeir=" + i);
+    }
+}
+}
+class demo
+{
+public static void main(String arg[])
+{
+xyz x1=new xyz();
+x1.display();
+}
+}
+
+
+
